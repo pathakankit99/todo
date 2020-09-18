@@ -1,0 +1,11 @@
+.modalContainer{
+    background: white !important;
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+}
+.modalContainer input{
+    margin-right: 20px;
+    margin-top: 30px;
+}
