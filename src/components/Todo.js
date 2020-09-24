@@ -22,7 +22,7 @@ function Todo(props) {
         setOpen(false)
     }
     return (
-        <duv>
+        <div>
             <Modal 
             className="modal"
             open={open} 
@@ -46,7 +46,7 @@ function Todo(props) {
             <Button onClick={(e)=>setOpen(true)} variant="contained" color="primary">Edit Me</Button>            
             <Button onClick={(e)=>db.collection('todos').doc(props.todo.id).delete()} variant="contained" color="secondary">Delete Me</Button>
             </List>
-        </duv>
+        </div>
     );
 }
 
